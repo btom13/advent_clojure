@@ -2,10 +2,10 @@
 for i in {1..25}
 do
    touch "./resources/day$i.txt"
-   # mkdir "./src/advent_clojure/day$i"
-   # for j in 1 2
-   # do
-   #    touch ".src/advent_clojure/day$i/part$j.txt"
-   # done
+   mkdir "./src/advent_clojure/day$i"
+   for j in 1 2
+   do
+      touch ".src/advent_clojure/day$i/part$j.txt"
+   done
 done
 
