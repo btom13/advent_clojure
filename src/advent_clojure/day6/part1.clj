@@ -1,0 +1,1 @@
+(ns advent-clojure.day6.part1)
