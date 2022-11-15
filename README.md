@@ -1,6 +1,6 @@
 # advent_clojure
 
-My attempt at completing the 2020 adventofcode.com challenges while learning clojure.
+My attempt at completing the 2020 https://adventofcode.com/ challenges while learning clojure.
 
 ## License
 
