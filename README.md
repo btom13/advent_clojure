@@ -1,14 +1,10 @@
 # advent_clojure
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+My attempt at completing the 2020 adventofcode.com challenges while learning clojure.
 
 ## License
 
-Copyright © 2022 FIXME
+Copyright © 2022 Brian Tom
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
