@@ -35,12 +35,12 @@ L.LLLLL.LL")
   (map-indexed (fn [y arr]
                  (map-indexed #(change_element %1 y %2 nums) arr)) nums))
 
-#_(print (apply + (map #(count (filter (partial = \#) %))
-                       (loop [arr nums]
-                         (let [new (modify arr)]
-                           (if (= new arr)
-                             new
-                             (recur new)))))))
+(print (apply + (map #(count (filter (partial = \#) %))
+                     (loop [arr nums]
+                       (let [new (modify arr)]
+                         (if (= new arr)
+                           new
+                           (recur new)))))))
 
 
 
